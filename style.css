@@ -49,3 +49,31 @@
     width: 20vw;
     border-radius: 20px;
 }
+.picked-wonder{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+    font-size: larger;
+}
+.picked-wonder i{
+    font-size: 18pt;
+    color: #082B85;
+}
+.selected{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+#wonder-image{
+    width: 60vw;
+    height: 100vh;
+}
+#wonder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
