@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .nav-bar{
     display: flex;
     height: 20vh;
@@ -69,11 +68,18 @@
 }
 #wonder-image{
     width: 60vw;
-    height: 100vh;
+    height: 90vh;
 }
 #wonder{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+footer{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12pt;
 }
